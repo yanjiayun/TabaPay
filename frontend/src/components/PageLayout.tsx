@@ -28,7 +28,12 @@ const PageLayout: React.FC<PageLayoutProps> = ({ treeData }) => {
       <Header />
       <div className="flex flex-1">
         <div className="w-52 lg:w-64 bg-gray-100 py-4">
-          <NavigationMenu data={treeData} onItemClick={handleItemClick} />
+          {/* <NavigationMenu data={treeData} onItemClick={handleItemClick} /> */}
+          <NavigationMenu
+            data={treeData}
+            onItemClick={handleItemClick}
+            selectedItem={selectedItem}
+          />
         </div>
         <ContentDisplay selectedItem={selectedItem} />
       </div>
