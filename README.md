@@ -22,7 +22,19 @@ This is the **TabaPay Developers UI Project**, a full-stack application designed
 ## **How to Run the Project**
 
 ### **1. Install Dependencies**
-Run the following command in the root directory to install all dependencies for both the frontend and backend:
+Run the following command in the root directory to install all dependencies for both the front and backend:
 
 ```bash
 npm run install-all
+```
+
+### **2. Create a .env file in the backend directory**
+Create a .env file in the backend directory and add the following information:
+MONGO_URI=your-mongodb-atlas-connection-string
+  
+### **3. Start The Project**
+Run the following command in the root directory to start both frontend and backend:
+
+```bash
+npm run dev
+```
