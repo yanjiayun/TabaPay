@@ -16,7 +16,11 @@ const PageLayout: React.FC<PageLayoutProps> = ({ treeData }) => {
 
   const handleItemClick = (item: string) => {
     setSelectedItem(item);
-    setClickedItem(item);
+    if (item !== "Child A1" && item !== "Child A21" && item !== "Child A22") {
+      setClickedItem(item);
+    } else {
+      setClickedItem(null);
+    }
   };
 
   return (
