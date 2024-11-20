@@ -1,6 +1,6 @@
 # TabaPay Developers UI Project
 
-This is the **TabaPay Developers UI Project**, a full-stack application designed to showcase developer-friendly UI features, including a dynamic tree navigation menu, content visualization, and tailored UI components for specific data scenarios.
+This is the **TabaPay Developers UI Project**, a full-stack application designed to showcase developer-friendly UI features.
 
 ---
 
